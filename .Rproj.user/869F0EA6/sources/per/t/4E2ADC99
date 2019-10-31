@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572516097179.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2726528986",
+    "id" : "4E2ADC99",
+    "lastKnownWriteTime" : 1572540694,
+    "last_content_update" : 1572540694604,
+    "path" : "~/R/Statistical_Analysis/Data_Analysis.R",
+    "project_path" : "Data_Analysis.R",
+    "properties" : {
+        "cursorPosition" : "18,23",
+        "scrollLine" : "3",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
