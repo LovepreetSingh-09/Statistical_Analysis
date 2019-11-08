@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573225347335.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4046744470",
+    "id" : "B4072866",
+    "lastKnownWriteTime" : 1573229891,
+    "last_content_update" : 1573229891268,
+    "path" : "~/R/Statistical_Analysis/model_selection.R",
+    "project_path" : "model_selection.R",
+    "properties" : {
+        "cursorPosition" : "67,23",
+        "scrollLine" : "57",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
