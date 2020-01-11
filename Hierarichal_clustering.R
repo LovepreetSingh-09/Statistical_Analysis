@@ -12,7 +12,9 @@ mtcars=as.data.frame(lapply(mtcars, norm))
 summary(mtcars)
 
 ?stats
+
 library(help='stats')
+
 ?hclust
 
 mtcars=na.omit(mtcars)
