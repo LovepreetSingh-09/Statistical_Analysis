@@ -1,5 +1,6 @@
 library (ISLR)
 library(leaps)
+library (pls)
 
 fix(Hitters )
 names(Hitters )
@@ -81,6 +82,7 @@ y=hitters$Salary
 y
 grid=10^seq(10,-2,length=100)
 grid
+
 # glmnet automatically standardize the variables
 ?glmnet
 ridge=glmnet(x,y,alpha=0,lambda=grid)
@@ -104,7 +106,6 @@ pred=predict(ridge,s=0, newx=x[test,], exact=TRUE)
 lm(y∼x, subset =train)
 predict(ridge ,s=0, exact =T,type= 'coefficients')
 
-library (pls)
 set.seed (2)
 pcr=pcr(Salary∼., data=Hitters ,scale=TRUE , validation ="CV")
 summary(pcr)
