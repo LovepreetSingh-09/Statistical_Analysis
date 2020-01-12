@@ -12,6 +12,7 @@ predict (lr ,data.frame(lstat =(c(5 ,10 ,15) )),interval ="confidence")
 predict (lr ,data.frame(lstat =(c(5 ,10 ,15) )),interval ="prediction")
 
 attach(Boston)
+
 plot(lstat,medv)
 abline (lr)
 
