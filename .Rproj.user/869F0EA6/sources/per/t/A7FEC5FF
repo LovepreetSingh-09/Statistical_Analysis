@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573811717862.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3202830262",
+    "id" : "A7FEC5FF",
+    "lastKnownWriteTime" : 1578839730,
+    "last_content_update" : 1578839730112,
+    "path" : "~/R/ML_by_R/Association_Rules.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "26,12",
+        "scrollLine" : "18"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
