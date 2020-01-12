@@ -1,6 +1,7 @@
 library (ISLR)
 library(leaps)
 library (pls)
+library(glmnet)
 
 fix(Hitters )
 names(Hitters )
@@ -59,6 +60,7 @@ predict.regsubsets =function (object ,newdata ,id ,...){
    xvars =names (coefi )
    mat[,xvars ]%*% coefi
 }
+
 k=10
 set.seed (1)
 folds=sample (1:k,nrow(Hitters ),replace =TRUE)
@@ -75,7 +77,6 @@ for(j in 1:k){
 
 # Ridge Regression
 # alpha=0 for ridge and 1 for lasso
-library(glmnet)
 x=model.matrix(Salary~.,hitters)[,-1]
 x
 y=hitters$Salary
@@ -117,3 +118,4 @@ summary(pls)
 validationplot(pls ,val.type="MSEP")
 pls.pred=predict (pls ,x[test ,], ncomp =2)
 mean((pls.pred -y.test)^2)
+
