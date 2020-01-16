@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "433416753",
+    "hash" : "302416321",
     "id" : "9F7408C",
-    "lastKnownWriteTime" : 1578839840,
-    "last_content_update" : 1578839840780,
+    "lastKnownWriteTime" : 1579188111,
+    "last_content_update" : 1579188111243,
     "path" : "~/R/ML_by_R/Medicine_Expenses.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "24,0",
-        "scrollLine" : "9"
+        "cursorPosition" : "1,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

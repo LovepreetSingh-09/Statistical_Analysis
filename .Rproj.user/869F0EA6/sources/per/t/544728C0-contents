@@ -34,4 +34,5 @@ lr=lm(formula = medv ∼ lstat + I(lstat ^2))
 summary(lr)
 lr1 =lm(medv∼lstat)
 summary(lr1)
+
 anova(lr ,lr1)

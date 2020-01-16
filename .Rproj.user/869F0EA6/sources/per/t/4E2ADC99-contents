@@ -18,6 +18,7 @@ summary(college)
 fix(Auto)
 summary(Auto)
 
+# Corelation
 cor(Auto$mpg,Auto[c(1:8)])
 cor(Auto$mpg,Auto[1:8])
 
